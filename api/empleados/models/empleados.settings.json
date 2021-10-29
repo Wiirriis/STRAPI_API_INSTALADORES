@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "empleados",
+  "info": {
+    "name": "Empleados",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Telefono": {
+      "type": "integer"
+    },
+    "dpi": {
+      "type": "integer"
+    },
+    "puesto": {
+      "model": "puestos"
+    },
+    "equipos_trabajo": {
+      "model": "equipos-trabajo"
+    },
+    "areas": {
+      "model": "areas"
+    }
+  }
+}

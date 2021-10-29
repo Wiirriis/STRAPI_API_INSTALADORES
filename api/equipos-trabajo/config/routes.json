@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/equipos-trabajos",
+      "handler": "equipos-trabajo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/equipos-trabajos/count",
+      "handler": "equipos-trabajo.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/equipos-trabajos/:id",
+      "handler": "equipos-trabajo.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/equipos-trabajos",
+      "handler": "equipos-trabajo.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/equipos-trabajos/:id",
+      "handler": "equipos-trabajo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/equipos-trabajos/:id",
+      "handler": "equipos-trabajo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

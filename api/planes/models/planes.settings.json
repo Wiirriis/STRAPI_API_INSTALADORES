@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "planes",
+  "info": {
+    "name": "Planes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "string"
+    },
+    "Megas": {
+      "type": "integer"
+    }
+  }
+}

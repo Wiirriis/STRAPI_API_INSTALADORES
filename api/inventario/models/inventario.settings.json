@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "inventarios",
+  "info": {
+    "name": "Inventario"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Equipo": {
+      "type": "string"
+    },
+    "Cantidad": {
+      "type": "integer"
+    },
+    "equipos": {
+      "collection": "equipos"
+    }
+  }
+}

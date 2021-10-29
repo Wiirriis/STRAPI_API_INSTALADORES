@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "equipos",
+  "info": {
+    "name": "Equipos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tipo_equipo_equipos": {
+      "model": "tipo-equipo"
+    },
+    "Nombre": {
+      "type": "string"
+    }
+  }
+}

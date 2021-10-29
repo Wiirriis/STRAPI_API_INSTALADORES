@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "instalaciones",
+  "info": {
+    "name": "Instalaciones",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "base": {
+      "model": "bases"
+    },
+    "equipos_trabajo": {
+      "model": "equipos-trabajo"
+    },
+    "estado": {
+      "model": "estados"
+    },
+    "plan": {
+      "model": "planes"
+    },
+    "equipo": {
+      "model": "equipos"
+    },
+    "cliente": {
+      "model": "clientes"
+    }
+  }
+}

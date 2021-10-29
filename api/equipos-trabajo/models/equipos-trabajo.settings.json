@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "equipos_trabajos",
+  "info": {
+    "name": "Equipos_trabajo",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Descripcion": {
+      "type": "string"
+    },
+    "empleados": {
+      "collection": "empleados"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/puestos",
+      "handler": "puestos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/puestos/count",
+      "handler": "puestos.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/puestos/:id",
+      "handler": "puestos.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/puestos",
+      "handler": "puestos.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/puestos/:id",
+      "handler": "puestos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/puestos/:id",
+      "handler": "puestos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

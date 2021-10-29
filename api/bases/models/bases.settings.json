@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bases",
+  "info": {
+    "name": "Bases"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Ubicacion": {
+      "type": "string"
+    }
+  }
+}
